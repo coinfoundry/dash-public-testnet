@@ -3,10 +3,6 @@
 - Node
   - RPC Port 16001, Username: user, Password: pass
 
-### Addresses
-
-Node: yX66Yxw8gwtfcx4qkh1AoXzQbzwJvhwQnP
-
 ### To run this image with internal ports exposed at host:
 
 ```bash
