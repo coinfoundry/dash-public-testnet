@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "* Starting Node ..."
-/usr/bin/dashd -daemon -server=1 -testnet=1 -rpcuser=user -rpcpassword=pass -rpcport=16001 -rpcbind=0.0.0.0 -rpcallowip=::/0 -rpcssl=0
-
-s6-svc -d /var/run/s6/services/node-pool
